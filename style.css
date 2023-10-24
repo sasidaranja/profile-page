@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-family: 'Poppins', sans-serif;    
+}
+
+body{
+    background-color: #111111;
+    color: #efefef;
+
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;    
+    padding: 20px 10%;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 30px;
+    color:#efefef;
+    text-decoration: none;
+    font-weight: 800;
+    
+}
+
+.navbar a {
+    font-size: 20px;
+    color:#efefef;
+    text-decoration: none;
+    font: weight 600px;
+    margin-left: 35px;
+    transition: .3s;   
+}
+
+.navbar a:hover, a.active{
+    color: deepskyblue;
+
+}
+
+.home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+
+}
+
+.home-content{
+    max-width: 600px;
+
+}
+
+.home-content h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+
+}
+
+.home-content h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: deepskyblue;
+    line-height: 1.2;
+}
+
+.home-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+    line-height: 1.5;
+}
+
+.home-content .btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+
+}
+
+.btn-box a {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 100%;
+    background-color: deepskyblue;
+    border: 2px solid deepskyblue;
+    border-radius: 6px;
+    font-size: 19px;
+    text-decoration: none;
+    color: #111111;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.btn-box a:nth-child(2) {
+    background-color: #111111;
+    color:deepskyblue;
+}
+
+.home-sci {
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border:2px solid deepskyblue;
+    border-radius:50%;
+    color: deepskyblue;
+    text-decoration: none;
+
+}
